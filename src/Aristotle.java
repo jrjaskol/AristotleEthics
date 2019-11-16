@@ -16,10 +16,14 @@ public class Aristotle {
 	public static void main(String[] args){
 		
 		System.out.println("Hello my child, I am Aristotle, what would you like to talk about? ");
+		System.out.println("Also, please use proper grammar, I am old and cannot hear very well. ");
 		
 		Scanner in = new Scanner(System.in);
 		String input = in.nextLine();
+		WordIdentify identity = new WordIdentify(input);
+		identity.nounIdentify();
+		//System.out.println(identity.nounIdentify());
 		
-		System.out.println(input);
+		
 	}
 }
