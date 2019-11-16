@@ -20,9 +20,8 @@ public class Aristotle {
 		
 		Scanner in = new Scanner(System.in);
 		String input = in.nextLine();
-		WordIdentify identity = new WordIdentify(input);
-		identity.nounIdentify();
-		//System.out.println(identity.nounIdentify());
+		WordIdentify identity = new WordIdentify();
+		identity.nounIdentify(input);
 		
 		
 	}
