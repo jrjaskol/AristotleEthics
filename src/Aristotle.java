@@ -22,6 +22,7 @@ public class Aristotle {
 		String input = in.nextLine();
 		WordIdentify identity = new WordIdentify();
 		identity.nounIdentify(input);
+		identity.getNoun();
 		
 		
 	}
